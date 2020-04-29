@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'open_sans';
+  src: url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('/fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('/fonts/opensans-bold-webfont.woff2') format('woff2'),
+       url('/fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+body {
+  background-color: #001821;
+  color: #ffffff;
+  font-family: 'open_sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42;
+  width: 100%;
+  background-image: url(/img/bg-top.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1145px;
+  margin: 0 auto;
+}
+
+.logo, .header__nav, .contacts {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header {
+  margin: 37px 0 167px 0;
+}
+
+.logo {
+  margin: 0 66px 0 0;
+  text-align: left;
+}
+
+.menu__item {
+  display: inline-block;
+  margin: 0 55px 0 0;
+}
+
+.menu__title, .contacts__phone, .contacts__schedule {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu__title:hover {
+  color: #f5170e;
+}
+
+.contacts {
+  float: right;
+  font-style: normal;
+}
+
+.contacts__schedule {
+  display: block;
+  text-align: right;
+}
+
+.contacts__schedule:hover {
+  text-decoration: underline;
+}
+
+.contacts__phone {
+  font-size: 26px;
+}
+
+.contacts__schedule-list {
+  display: none;
+  padding: 20px 14px 16px 18px;
+  margin: 8px 0 0 0;
+}
+
+.contacts__schedule:hover + .contacts__schedule-list {
+  display: block;
+  color: #1e1f20;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.contacts__work-time, .contacts__lunch-time {
+  margin: 0;
+}
+
+.contacts__work-time {
+  font-weight: bold;
+}
+
+.promo {
+  width: 520px;
+  margin: 0 0 261px 0;
+}
+
+.promo__title {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.promo__description {
+  font-size: 18px;
+}
+
+.promo__button {
+  display: inline-block;
+  width: 165px;
+  height: 52px;
+  border-radius: 26px;
+  background-color: #f5170e;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+.tours__title {
+  font-size: 36px;
+  font-weight: bold;
+}
