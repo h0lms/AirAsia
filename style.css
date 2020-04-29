@@ -25,6 +25,7 @@ body {
   background-image: url(/img/bg-top.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 .wrapper {
@@ -34,7 +35,7 @@ body {
 
 .logo, .header__nav, .contacts {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .header {
@@ -46,9 +47,15 @@ body {
   text-align: left;
 }
 
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
 .menu__item {
   display: inline-block;
   margin: 0 55px 0 0;
+  padding: 0;
 }
 
 .menu__title, .contacts__phone, .contacts__schedule {
@@ -102,7 +109,7 @@ body {
 
 .promo {
   width: 520px;
-  margin: 0 0 261px 0;
+  margin: 0 0 210px 0;
 }
 
 .promo__title {
