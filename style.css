@@ -16,15 +16,13 @@
 }
 
 body {
-  background-color: #001821;
   color: #ffffff;
   font-family: 'open_sans', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   width: 100%;
-  background-image: url(./img/bg-top.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
+  background: url(./img/bg-top.jpg) top center no-repeat,
+              #001821 url(./img/bg-footer.jpg) center calc(100% - 172px) no-repeat;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-.logo, .header__nav, .contacts {
+.logo, .header__nav, .contacts, .footer__nav, .socials {
   display: inline-block;
   vertical-align: middle;
 }
@@ -71,6 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 .menu__item {
   display: inline-block;
   margin: 0 55px 0 0;
+}
+
+.menu__item:last-child {
+  margin: 0;
 }
 
 .menu__title, .contacts__phone, .contacts__schedule {
@@ -274,4 +276,101 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px 0 0 0;
   padding: 0;
   font-size: 16px;
+}
+
+.paginator {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+.paginator__page, .paginator__list, .paginator__item {
+  display: inline-block;
+}
+
+.paginator__page {
+  margin-right: 10px;
+}
+
+.paginator__link {
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  line-height: 28px;
+}
+
+.paginator__link:hover {
+  background-color: #fff;
+  border-radius: 16px;
+  vertical-align: middle;
+  color: #d21d16;
+}
+
+.about {
+  background-image: url(./img/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 600px;
+  height: 304px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #303030;
+  padding: 75px 90px;
+  margin-top: 107px;
+  margin-left: 360px;
+  margin-bottom: 44px;
+  position: relative;
+}
+
+.about__pic {
+  position: absolute;
+  top: -107px;
+  left: -360px;
+  border-radius: 6px;
+  width: 488px;
+  height: 502px;
+  z-index: -1;
+}
+
+.about__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.about__description {
+  font-size: 16px;
+  line-height: 1.64;
+  margin-bottom: 40px;
+}
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 0;
+}
+
+.socials {
+  margin: 0 70px 0 230px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-left: 0;
+}
+
+.socials__icon {
+  opacity: 0.2;
+}
+
+.socials__icon:hover {
+  opacity: 0.4;
 }
