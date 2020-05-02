@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6, p {
 .news__item {
   display: inline-block;
   width: 495px;
-  height: 341px;
+  min-height: 341px;
   vertical-align: top;
   padding: 25px 30px;
   border-radius: 6px;
