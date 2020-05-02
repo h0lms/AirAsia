@@ -328,7 +328,6 @@ button {
 .paginator__link:hover {
   background-color: #fff;
   border-radius: 16px;
-  vertical-align: middle;
   color: #d21d16;
 }
 
