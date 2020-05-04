@@ -21,6 +21,12 @@
   line-height: 32px;
 }
 
+.paginator__link--active {
+  background-color: #fff;
+  border-radius: 16px;
+  color: #d21d16;
+}
+
 .paginator__link:hover {
   background-color: #fff;
   border-radius: 16px;

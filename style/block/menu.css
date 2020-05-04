@@ -17,6 +17,10 @@
   text-decoration: none;
 }
 
+.menu__title--active {
+  color: #f5170e;
+}
+
 .menu__title:hover {
   color: #f5170e;
 }
