@@ -21,13 +21,13 @@
   top: 0;
   left: 0;
   border-radius: 6px;
-  z-index: -1;
 }
 
 .news__content {
  position: absolute;
  bottom: 10px;
  left: 29px;
+ min-height: 140px;
 }
 
 .news__date {
