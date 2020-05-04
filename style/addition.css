@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1150px;
+  min-height: 100%;
+  display: flex; /* Разварачиваем флексбокс */
+  flex-direction: column; /* Делаем вертикальным */
+}
+
+.wrapper__content {
+  flex: 1; /* Будем этим блоком забирать всё свободное пространство. */
+}
+
