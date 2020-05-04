@@ -1,0 +1,22 @@
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 55px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__title {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu__title:hover {
+  color: #f5170e;
+}

@@ -1,0 +1,28 @@
+.socials {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+  margin-left: 230px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__link {
+  display: inline-block;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__icon {
+  opacity: 0.2;
+}
+
+.socials__icon:hover {
+  opacity: 0.4;
+}

@@ -1,0 +1,41 @@
+.about {
+  margin-bottom: 40px;
+}
+
+.about__image, .about__content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__content {
+  background-image: url(../img/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #fff;
+  width: 590px;
+  height: 323px;
+  color: #303030;
+  border-radius: 6px;
+  margin-left: -128px;
+  margin-top: 107px;
+  padding: 65px 95px;
+}
+
+.about__pic {
+  width: 488px;
+  height: 502px;
+  border-radius: 6px;
+}
+
+.about__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.about__description {
+  font-size: 16px;
+  line-height: 1.64;
+  margin-bottom: 40px;
+}

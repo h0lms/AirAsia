@@ -1,0 +1,10 @@
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 0;
+  background-color: #001821;
+}
+
+.footer__nav {
+  display: inline-block;
+  vertical-align: middle;
+}

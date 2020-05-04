@@ -1,0 +1,44 @@
+.contacts {
+  display: block;
+  float: right;
+  font-style: normal;
+}
+
+.contacts__phone, .contacts__schedule {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts__schedule {
+  display: block;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.contacts__phone {
+  font-size: 26px;
+}
+
+.contacts__schedule-list {
+  display: none;
+  padding: 20px 14px 16px 18px;
+  margin-top: 8px;
+}
+
+.contacts__schedule:hover + .contacts__schedule-list {
+  display: block;
+  float: right;
+  color: #1e1f20;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 140px;
+}
+
+.contacts__work-time, .contacts__lunch-time {
+  margin: 0;
+}
+
+.contacts__work-time {
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.button {
+  display: inline-block;
+  min-width: 165px;
+  min-height: 52px;
+  border-radius: 26px;
+  background-color: #f5170e;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
