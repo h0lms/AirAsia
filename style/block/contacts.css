@@ -21,8 +21,9 @@
 
 .contacts__schedule-list {
   display: none;
-  padding: 20px 14px 16px 18px;
+  padding: 15px;
   margin-top: 8px;
+  font-size: 13px;
 }
 
 .contacts__schedule:hover + .contacts__schedule-list {
@@ -32,7 +33,7 @@
   opacity: 0.8;
   background-color: #ffffff;
   border-radius: 4px;
-  width: 140px;
+  width: 153px;
 }
 
 .contacts__work-time, .contacts__lunch-time {
