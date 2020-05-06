@@ -2,6 +2,11 @@
   margin-bottom: 150px;
 }
 
+.tours__list {
+  display: flex;
+  align-items: flex-start;
+}
+
 .tours__title {
   font-size: 36px;
   font-weight: bold;
@@ -9,8 +14,6 @@
 }
 
 .tours__item {
-  display: inline-block;
-  vertical-align: top;
   width: 360px;
   margin-right: 31px;
   background-color: #ffffff;
@@ -45,10 +48,12 @@
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .tours__duration, .tours__food {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .tours__duration {

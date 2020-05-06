@@ -1,7 +1,7 @@
 .contacts {
-  display: block;
-  float: right;
   font-style: normal;
+  margin-left: auto;
+  position: relative;
 }
 
 .contacts__phone, .contacts__schedule {
@@ -34,6 +34,9 @@
   background-color: #ffffff;
   border-radius: 4px;
   width: 153px;
+  position: absolute;
+  right: 0;
+  top: 55px;
 }
 
 .contacts__work-time, .contacts__lunch-time {

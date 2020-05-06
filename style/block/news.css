@@ -1,12 +1,12 @@
 .news {
   margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .news__item {
-  display: inline-block;
   width: 555px;
   min-height: 391px;
-  vertical-align: top;
   padding: 25px 30px;
   border-radius: 6px;
   position: relative;

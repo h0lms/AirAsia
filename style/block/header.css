@@ -1,9 +1,6 @@
 .header {
-  margin-top: 37px;
-  margin-bottom: 167px;
-}
-
-.header__nav {
-  display: inline-block;
-  vertical-align: middle; 
+  margin: 29px auto 167px;
+  width: 1150px;
+  display: flex;
+  align-items: center;
 }
