@@ -1,5 +1,5 @@
 .tours {
-  margin-bottom: 150px;
+  margin-bottom: 142px;
 }
 
 .tours__list {
@@ -47,26 +47,50 @@
 .tours__facts {
   font-size: 16px;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   display: flex;
 }
 
 .tours__duration, .tours__food {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  margin-top: 2px;
 }
 
 .tours__duration {
   margin-right: 30px;
+  margin-left: 7px;
 }
 
-.tours__icon {
-  margin-right: 5px;
+.tours__duration::before {
+ content: "";
+ background-image: url(../../img/calendar.png);
+ background-size: 26px 26px;
+ display: block;
+ width: 26px;
+ height: 26px;
+ margin-right: 7px;
+}
+
+.tours__food {
+  margin-left: 11px;
+}
+
+.tours__food::before {
+  content: "";
+  background-image: url(../../img/meal.png);
+  background-size: 36px 26px;
+  display: block;
+  width: 36px;
+  height: 26px;
+  margin-right: 8px;
 }
 
 .tours__description {
   color: #303030;
-  margin-bottom: 22px;
+  margin-bottom: 26px;
+  margin-left: 1px;
+  line-height: 1.43;
 }
 
 .tours__link {
@@ -76,6 +100,7 @@
   border: solid 1px rgba(245, 23, 14, 0.4);
   color: #d21d16;
   line-height: 50px;
+  margin-left: 5px;
 }
 
 .tours__link--bg--red {

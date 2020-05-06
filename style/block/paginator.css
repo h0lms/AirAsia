@@ -9,8 +9,12 @@
   align-items: center;
 }
 
+.paginator__list {
+  margin-left: 19px;
+}
+
 .paginator__page {
-  margin-right: 10px;
+  min-width: 141px;
 }
 
 .paginator__item {

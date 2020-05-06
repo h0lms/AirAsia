@@ -1,5 +1,5 @@
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 
 .about__image, .about__content {
@@ -16,9 +16,11 @@
   height: 454px;
   color: #303030;
   border-radius: 6px;
-  margin-left: -128px;
+  margin-left: -132px;
   margin-top: 107px;
-  padding: 65px 95px;
+  padding-top: 68px;
+  padding-left: 98px;
+  padding-right: 98px;
 }
 
 .about__pic {
@@ -30,12 +32,12 @@
 .about__title {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 29px;
   color: #000;
 }
 
 .about__description {
   font-size: 16px;
   line-height: 1.64;
-  margin-bottom: 40px;
+  margin-bottom: 47px;
 }
