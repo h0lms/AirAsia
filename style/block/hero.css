@@ -1,0 +1,14 @@
+.hero {
+  height: 412px;
+  background-color: #1a1b1e;
+  background-image: url(../../img/bg-line.jpg);
+  background-position: center top;
+  margin-bottom: 100px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 90px;
+}

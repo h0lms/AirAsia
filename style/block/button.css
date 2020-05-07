@@ -18,3 +18,28 @@
 .button:hover {
   background-color: #da0100;
 }
+
+.button--bg--white {
+  min-width: 130px;
+  min-height: 50px;
+  background-color: #ffffff;
+  border: solid 1px rgba(245, 23, 14, 0.4);
+  color: #d21d16;
+  line-height: 50px;
+  margin-left: 5px;
+}
+
+.button--bg--red {
+  background-color: #f5170e;
+  color: #fff;
+  min-width: 130px;
+  min-height: 50px;
+  border: solid 1px rgba(245, 23, 14, 0.4);
+  line-height: 50px;
+  margin-left: 5px;
+}
+
+.button--bg--white:hover {
+  background-color: #f5170e;
+  color: #fff;
+}

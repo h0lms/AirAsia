@@ -3,6 +3,10 @@
   font-size: 16px;
 }
 
+.paginator--services {
+  color: #000;
+}
+
 .paginator, .paginator__list {
   display: flex;
   justify-content: center;
@@ -32,14 +36,29 @@
   line-height: 32px;
 }
 
+.paginator--services .paginator__link {
+  color: #000;
+}
+
 .paginator__link--active {
   background-color: #fff;
   border-radius: 16px;
   color: #d21d16;
 }
 
+.paginator--services .paginator__link--active {
+  background-color: #f5170e;
+  color: #fff;
+}
+
 .paginator__link:hover {
   background-color: #fff;
   border-radius: 16px;
   color: #d21d16;
+}
+
+.paginator--services .paginator__link:hover {
+  border-radius: 16px;
+  background-color: #f5170e;
+  color: #fff;
 }

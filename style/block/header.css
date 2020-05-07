@@ -1,6 +1,11 @@
 .header {
-  margin: 29px auto 148px;
+  margin: 0 auto 148px;
   width: 1140px;
   display: flex;
   align-items: center;
+  padding-top: 29px;
+}
+
+.header--services {
+  margin-bottom: 120px;
 }
