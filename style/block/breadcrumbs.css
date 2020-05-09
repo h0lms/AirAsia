@@ -4,6 +4,7 @@
 
 .breadcrumbs__list {
   display: flex;
+  align-items: center;
 }
 
 .breadcrumbs__item::after {

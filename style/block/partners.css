@@ -1,24 +1,16 @@
 .partners {
-  background-color: #f4f5f5;
-  padding-top: 102px;
-}
-
-.partners__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 50px;
-}
-
-.partners__title {
-  font-size: 48px;
-  font-weight: bold;
-  color: #202123;
-  line-height: 1.1;
-  margin-bottom: 90px;
+  padding-bottom: 56px;
+  align-items: center;
 }
 
 .partners__item {
   margin-right: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 64px;
+}
+
+.partners__item:nth-child(4n) {
+  margin-right: 0;
 }

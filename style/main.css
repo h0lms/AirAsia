@@ -17,5 +17,8 @@
 @import url('./block/footer.css');
 @import url('./block/hero.css');
 @import url('./block/breadcrumbs.css');
-@import url('./block/posts.css');
+@import url('./block/post-content.css');
 @import url('./block/partners.css');
+@import url('./block/page-title.css');
+@import url('./block/services.css');
+@import url('./block/single-news.css');

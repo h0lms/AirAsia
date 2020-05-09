@@ -2,20 +2,20 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1140px, initial-scale=1.0">
+  <meta name="viewport" content="width=1200px, initial-scale=1.0">
   <title>Service</title>
   <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
   
-  <div class="wrappper-services">
+  <div class="wrapper wrapper--services">
 
-    <div class="wrappper-services__content">
+    <div class="wrapper__content">
 
         <section class="hero">
     
-          <div class="container">
-            <header class="header header--services">
+          <div class="container hero__container">
+            <header class="header header__services">
               <a href="./" class="logo">
                 <img src="./img/logo.png" alt="Логотип сайта Air Asia" class="logo__pic">
               </a>
@@ -25,7 +25,7 @@
                     <a href="./" class="menu__title">Главная</a>
                   </li>
                   <li class="menu__item">
-                    <a href="#" class="menu__title">Услуги</a>
+                    <a href="#" class="menu__title menu__title--color--red">Услуги</a>
                   </li>
                   <li class="menu__item">
                     <a href="#" class="menu__title">Отзывы</a>
@@ -42,14 +42,14 @@
               </address>
             </header>
     
-            <h1 class="hero__title">Услуги</h1>
+            <h1 class="page-title">Услуги</h1>
     
             <nav class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
                   <a href="/" class="breadcrumbs__link">Главная</a>
                 </li>
-                <li class="breadcrumbs__item">
+                <li class="breadcrumbs__item breadcrumbs__item--active">
                   <a href="" class="breadcrumbs__link breadcrumbs__link--active">Услуги</a>
                 </li>
               </ul>
@@ -58,35 +58,39 @@
     
         </section>
     
-        <section class="posts">
+        <main class="post-content">
   
           <div class="container">
-            <ul class="posts__list">
-              <li class="posts__item">
-                <img src="./img/waterfall.jpg" alt="" class="posts__pic">
-                  <article class="posts__article">
-                    <h3 class="posts__title">Водопад Янг-бей</h3>
-                    <div class="posts__description">
+            <ul class="services">
+              <li class="services__item service">
+                <div class="service__img">
+                  <img src="./img/waterfall.jpg" alt="Водопад" class="service__pic">
+                </div>
+                  <article class="service__article">
+                    <h3 class="service__title">Водопад Янг-бей</h3>
+                    <div class="service__description">
                       <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, 
                       а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
                     </div>
-                    <a href="#" class="posts__link button">Подробнее</a>
+                    <a href="#" class="service__link button">Подробнее</a>
                   </article>
               </li>
-              <li class="posts__item">
-                <img src="./img/monkey.jpg" alt="" class="posts__pic">
-                  <article class="posts__article">
-                    <h3 class="posts__title">Остров обезьян</h3>
-                    <div class="posts__description">
+              <li class="services__item service">
+                <div class="service__img">
+                  <img src="./img/monkey.jpg" alt="Обезъяны" class="service__pic">
+                </div>
+                  <article class="service__article">
+                    <h3 class="service__title">Остров обезьян</h3>
+                    <div class="service__description">
                       <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, 
                       а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
                     </div>
-                    <a href="#" class="posts__link post__link--color--red button">Подробнее</a>
+                    <a href="#" class="service__link post__link--color--red button">Подробнее</a>
                   </article>
               </li>
             </ul>
     
-            <div class="paginator paginator--services">
+            <div class="paginator paginator--theme--light">
               <div class="paginator__page">Страница 1 из 7</div>
               <ul class="paginator__list">
                 <li class="paginator__item"><a href="#" class="paginator__link paginator__link--active">1</a></li>
@@ -100,55 +104,50 @@
             </div>
           </div>
   
-        </section>
+        </main>
     
-        <section class="partners">
+        <section class="section-inner section-inner--bg--gray">
           <div class="container">
-            <h2 class="partners__title">Партнеры</h2>
-            <ul class="partners__list">
+            <h2 class="section-inner__title">Партнеры</h2>
+            <ul class="partners">
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/pobeda.png" alt="" class="partners__pic">
+                  <img src="./img/partners/pobeda.png" alt="Победа" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/s7.png" alt="" class="partners__pic">
+                  <img src="./img/partners/s7.png" alt="S7" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/lets-fly.png" alt="" class="partners__pic">
+                  <img src="./img/partners/lets-fly.png" alt="Lets Fly" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/lufthansa.png" alt="" class="partners__pic">
+                  <img src="./img/partners/lufthansa.png" alt="Luft ansa" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/airbaltic.png" alt="" class="partners__pic">
+                  <img src="./img/partners/airbaltic.png" alt="Air Baltica" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="" alt="" class="partners__pic">
+                  <img src="./img/partners/pegasus.png" alt="Pegasus" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/pegasus.png" alt="" class="partners__pic">
+                  <img src="./img/partners/ural.png" alt="Урал" class="partners__pic">
                 </a>
               </li>
               <li class="partners__item">
                 <a href="#" class="partners__link">
-                  <img src="./img/partners/ural.png" alt="" class="partners__pic">
-                </a>
-              </li>
-              <li class="partners__item">
-                <a href="#" class="partners__link">
-                  <img src="./img/partners/pegas.png" alt="" class="partners__pic">
+                  <img src="./img/partners/pegas.png" alt="Pegas" class="partners__pic">
                 </a>
               </li>
             </ul>
@@ -158,7 +157,7 @@
     </div>
     
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <a href="/" class="logo">
           <img src="./img/logo.png" alt="Логотип сайта Air Asia" class="logo__pic">
         </a>

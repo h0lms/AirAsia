@@ -1,26 +1,21 @@
 .about {
   margin-bottom: 44px;
-}
-
-.about__image, .about__content {
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
 }
 
 .about__content {
   background-image: url(../../img/mountain.jpg);
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: cover;
   background-color: #fff;
-  width: 780px;
-  height: 454px;
+  max-width: 780px;
+  min-height: 454px;
   color: #303030;
   border-radius: 6px;
-  margin-left: -132px;
+  margin-left: -128px;
   margin-top: 107px;
-  padding-top: 68px;
-  padding-left: 98px;
-  padding-right: 98px;
+  padding: 68px 98px 20px;
 }
 
 .about__pic {

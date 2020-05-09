@@ -3,7 +3,7 @@
   background-color: #001821;
 }
 
-.footer > .container {
+.footer__container {
   display: flex;
   align-items: center;
 }
