@@ -7,10 +7,17 @@
   align-items: center;
 }
 
+.breadcrumbs__item {
+  margin-left: 3px;
+}
+
+.breadcrumbs__item:first-child {
+  margin-left: 0;
+}
+
 .breadcrumbs__item::after {
   content: '/';
   display: inline-block;
-  margin-right: 3px;
 }
 
 .breadcrumbs__item:last-child::after {
