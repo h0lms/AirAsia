@@ -32,6 +32,13 @@ body {
   background: none;
 }
 
+.wrapper--welcome {
+  background: url('../../img/bg-welcom.jpg') center calc(100% + 19px) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .wrapper__content {
   flex: 1;
 }
