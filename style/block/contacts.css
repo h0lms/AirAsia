@@ -2,6 +2,10 @@
   font-style: normal;
   margin-left: auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .contacts__phone {
@@ -14,7 +18,7 @@
 }
 
 .contacts__schedule {
-  display: block;
+  display: inline-flex;
   text-align: right;
   text-decoration: underline;
 }
@@ -24,15 +28,41 @@
 }
 
 .contacts__schedule-list {
-  display: none;
   padding-top: 15px;
   padding-left: 18px;
   margin-top: 8px;
   font-size: 13px;
   line-height: 1.68;
+  position: absolute;
+  right: -9999px;
+  opacity: 0;
+  transition: opacity 2s;
 }
 
-.contacts__schedule:hover + .contacts__schedule-list {
+.contacts__schedule-list::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: 99%;
+  left: 89px;
+}
+
+.contacts__schedule-list::after {
+ position: absolute;
+ content: "";
+ display: block;
+ height: 30px;
+ width: 100%;
+ top: -29px;
+ left: 0;
+}
+
+.contacts__wrap:hover .contacts__schedule-list {
   display: block;
   color: #1e1f20;
   opacity: 0.8;
@@ -40,7 +70,6 @@
   border-radius: 4px;
   width: 153px;
   height: 69px;
-  position: absolute;
   right: 0;
   top: 45px;
 }
