@@ -34,6 +34,8 @@
   width: 32px;
   height: 32px;
   line-height: 32px;
+  border-radius: 16px;
+  transition: background-color .15s, color .15s;
 }
 
 .paginator--theme--light .paginator__link {
@@ -42,7 +44,6 @@
 
 .paginator__link--active {
   background-color: #fff;
-  border-radius: 16px;
   color: #d21d16;
 }
 
@@ -53,12 +54,10 @@
 
 .paginator__link:hover {
   background-color: #fff;
-  border-radius: 16px;
   color: #d21d16;
 }
 
 .paginator--theme--light .paginator__link:hover {
-  border-radius: 16px;
   background-color: #f5170e;
   color: #fff;
 }
