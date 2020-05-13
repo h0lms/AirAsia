@@ -6,6 +6,14 @@
 
 .socials__item {
   margin-right: 10px;
+  max-width: 36px;
+  max-height: 36px;
+  opacity: .2;
+  transition: .5s;
+}
+
+.socials__item:hover {
+  opacity: .4;
 }
 
 .socials__item:last-child {
@@ -22,12 +30,6 @@
   align-items: center;
   width: 36px;
   height: 36px;
-  opacity: .2;
-  transition: .5s;
-}
-
-.socials__icon:hover {
-  opacity: .4;
 }
 
 .socials__icon::before {
@@ -54,15 +56,3 @@
 .socials__icon--instagram.socials__icon::before {
   background-position: -66px -10px;
 }
-
-
-
-
-
-/* .socials__icon {
-  opacity: 0.2;
-}
-
-.socials__icon:hover {
-  opacity: 0.4;
-} */
