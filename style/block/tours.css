@@ -74,7 +74,7 @@
 
 .tour__duration::before {
  content: "";
- background: url('../../img/icons/css_sprites.png') -122px -56px;
+ background: url('../../img/icons/sprites.png') -10px -122px;
  display: block;
  width: 26px;
  height: 26px;
@@ -88,7 +88,7 @@
 .tour__food::before {
   content: "";
   display: block;
-  background: url('../../img/icons/css_sprites.png') -122px -10px;
+  background: url('../../img/icons/sprites.png') -122px -10px;
   width: 36px;
   height: 26px;
   margin-right: 8px;

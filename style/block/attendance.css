@@ -1,0 +1,24 @@
+.attendance {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+
+.attendance__ask {
+  color: #1a1b1e;
+  font-size: 18px;
+  white-space: nowrap;
+  margin-right: 12px;
+}
+
+.attendance__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.attendance__checkbox {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}

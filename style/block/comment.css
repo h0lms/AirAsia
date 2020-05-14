@@ -1,0 +1,44 @@
+.comment {
+  padding-bottom: 100px;
+}
+
+.comment__profile {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.input {
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+  padding: 25px 0 19px 29px;
+  color: #1a1b1e;
+}
+
+.input::placeholder {
+  color: #666666;
+}
+
+.comment__name {
+  margin-right: 30px;
+}
+
+.comment__text {
+  margin-bottom: 28px;
+}
+
+.comment__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.comment__button {
+  margin-left: 10px;
+}
+
+.comment__button:first-child {
+  margin-left: 0;
+}

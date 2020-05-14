@@ -23,16 +23,12 @@
 .socials__link {
   display: flex;
   align-items: center;
-}
-.socials__icon {
   position: relative;
-  display: flex;
-  align-items: center;
   width: 36px;
   height: 36px;
 }
 
-.socials__icon::before {
+.socials__link::before {
   content: "";
   display: block;
   position: absolute;
@@ -41,18 +37,18 @@
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url('../../img/icons/css_sprites.png') no-repeat;
+  background: url('../../img/icons/sprites.png') no-repeat;
 }
 
-.socials__icon--telegram.socials__icon::before {
-  background-position: -66px -66px;
-}
-.socials__icon--vk.socials__icon::before {
-  background-position: -10px -66px;
-}
-.socials__icon--facebook.socials__icon::before {
+.socials__link--telegram.socials__link::before {
   background-position: -10px -10px;
 }
-.socials__icon--instagram.socials__icon::before {
+.socials__link--vk.socials__link::before {
   background-position: -66px -10px;
+}
+.socials__link--facebook.socials__link::before {
+  background-position: -66px -66px;
+}
+.socials__link--instagram.socials__link::before {
+  background-position: -10px -66px;
 }

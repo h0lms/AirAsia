@@ -1,0 +1,24 @@
+.banner {
+  background: #f4f5f5 url("../../img/banner/banner-bg.jpg") no-repeat top center;
+  max-height: 360px;
+  display: flex;
+  padding-top: 20px;
+}
+
+.banner__container {
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.banner__img {
+  width: 487px;
+  height: 341px;
+  margin-left: 76px;
+}

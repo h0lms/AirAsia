@@ -9,6 +9,7 @@
   margin-right: 29px;
   margin-bottom: 20px;
   margin-top: 24px;
+  align-self: flex-start;
 }
 
 .reviews__item:nth-child(2n) {
@@ -18,7 +19,7 @@
 .review {
   border-radius: 4px;
   background-color: #f4f5f5;
-  padding: 50px 29px 35px;
+  padding: 50px 30px 35px;
 }
 
 .review__profile {
@@ -44,9 +45,29 @@
 .review__author {
   font-size: 24px;
   font-weight: bold;
-  line-height: 1.75;
+  line-height: 1;
+  color: #1a1b1e;
+  margin: 8px 0 17px 0;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+
+.review__author:hover {
   color: #2e77a4;
-  padding-bottom: 7px;
+  text-decoration: none;
+  border-bottom: 1px solid #2e77a4;
+}
+
+.review__author::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('../../img/icons/sprites.png') -122px -56px;
+  position: absolute;
+  right: -51px;
+  top: -3px;
 }
 
 .review__tour {
@@ -54,7 +75,7 @@
 }
 
 .review__profile {
-  margin-bottom: 20px;
+  margin-bottom: 27px;
 }
 
 .review__name {
@@ -67,7 +88,7 @@
 .review__text {
   line-height: 1.69;
   color: #818181;
-  margin-bottom: 50px;
+  margin-bottom: 43px;
 }
 
 .review__date {

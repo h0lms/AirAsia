@@ -44,11 +44,10 @@
   color: #fff;
 }
 
-.button--blue {
-  display: inline-flex;
-  border-radius: 17px;
-  font-size: 13px;
-  color: #303030;
-  background-color: #b9eae4;
-  padding: 7px 16px 7px 19px;;
+.button--bg-black {
+  background-color: #8e8e8e;
+}
+
+.button--bg-black:hover {
+  background-color: #2b2b2b;
 }

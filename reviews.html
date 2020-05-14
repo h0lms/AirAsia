@@ -25,7 +25,7 @@
                     <a href="./" class="menu__title">Главная</a>
                   </li>
                   <li class="menu__item">
-                    <a href="#" class="menu__title">Услуги</a>
+                    <a href="./services.html" class="menu__title">Услуги</a>
                   </li>
                   <li class="menu__item">
                     <a href="#" class="menu__title menu__title--color--red">Отзывы</a>
@@ -72,7 +72,7 @@
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Иван Петрович</a>
-                    <div class="button--blue">Водопад Янг-бей</div>
+                    <div class="btn btn-blue">Водопад Янг-бей</div>
                   </div>
                 </div>
                 <h2 class="review__name">Крутой поход на водопады.</h2>
@@ -86,7 +86,7 @@
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Екатерина Жмых</a>
-                    <div class="button--blue">Тур на Остров обезьян</div>
+                    <div class="btn btn-blue">Тур на Остров обезьян</div>
                   </div>
                 </div>
                 <h2 class="review__name">Очень понравился тур на остров обезьян.</h2>
@@ -100,7 +100,7 @@
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Лиза Сидорова</a>
-                    <div class="button--blue">Тур по Тайланду</div>
+                    <div class="btn btn-blue">Тур по Тайланду</div>
                   </div>
                 </div>
                 <h2 class="review__name">Интерестный тур по Таю.</h2>
@@ -114,7 +114,7 @@
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Антон Игоревич</a>
-                    <div class="button--blue">Тур по Индонезии</div>
+                    <div class="btn btn-blue">Тур по Индонезии</div>
                   </div>
                 </div>
                 <h2 class="review__name">Для первого раза выбрал тур по Индонезии. И не пожалел!</h2>
@@ -140,12 +140,60 @@
   
         </main>
 
-        <secion class="banner"></secion>
+        <secion class="banner">
+          <div class="container banner__container">
+            <div class="banner__text">Подберем тур <br>по вашим пожеланиям</div>
+            <img src="./img/banner/banner-tour.png" alt="Ищем тур" class="banner__img">
+          </div>
+        </secion>
     
         <section class="section-inner section-inner--bg--gray">
           <div class="container">
             <h2 class="section-inner__title">Оставьте отзыв</h2>
-            
+            <div class="comment">
+              <div class="comment__profile">
+                <input type="text" class="comment__name input" name="name" id="name" placeholder="Ваше имя">
+                <input type="text" class="comment__link input" name="link-vk" id="link-vk" placeholder="Ссылка на профиль VK">
+              </div>
+              <textarea name="comment-text" class="comment__text input" id="comment-text" cols="30" rows="10" placeholder="Напишите свой честный отзыв ;)"></textarea>
+              <div class="attendance">
+                <div class="attendance__ask">Какими услугами компании пользуетесь?</div>
+                <div class="attendance__list">
+                  <label for="tour-id-1">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-1">
+                    <div class="attendance__checkbox btn">Остров обезьян</div>
+                  </label>
+                  <label for="tour-id-2">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-2">
+                    <div class="attendance__checkbox btn">Тур по Тайланду</div>
+                  </label>
+                  <label for="tour-id-3">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-3">
+                    <div class="attendance__checkbox btn">Водопад Янг-бей</div>
+                  </label>
+                  <label for="tour-id-4">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-4">
+                    <div class="attendance__checkbox btn">Тур по Индонезии</div>
+                  </label>
+                  <label for="tour-id-5">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-5">
+                    <div class="attendance__checkbox btn">Никакими</div>
+                  </label>
+                  <label for="tour-id-6">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-6">
+                    <div class="attendance__checkbox btn">Тур по Бали</div>
+                  </label>
+                  <label for="tour-id-7">
+                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-7">
+                    <div class="attendance__checkbox btn">Другое</div>
+                  </label>
+                </div>
+              </div>
+              <div class="comment__buttons">
+                <input type="reset" value="Очистить" class="comment__button button button--bg-black">
+                <input type="button" value="Отправить" class="comment__button button">
+              </div>
+            </div>
           </div>
         </section>
 
@@ -162,7 +210,7 @@
               <a href="./" class="menu__title">Главная</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__title">Услуги</a>
+              <a href="./services.html" class="menu__title">Услуги</a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__title">Отзывы</a>
@@ -170,18 +218,10 @@
           </ul>
         </nav>
         <ul class="socials">
-          <li class="socials__item"><a href="#" class="socials__link" alt="Группа в Telegram">
-            <span class="socials__icon socials__icon--telegram"></span>
-          </a></li>
-          <li class="socials__item"><a href="#" class="socials__link" alt="Группа в VK">
-            <span class="socials__icon socials__icon--vk"></span>
-          </a></li>
-          <li class="socials__item"><a href="#" class="socials__link" alt="Группа в Facebook">
-            <span class="socials__icon socials__icon--facebook"></span>
-          </a></li>
-          <li class="socials__item"><a href="#" class="socials__link" alt="Группа в Instagram">
-            <span class="socials__icon socials__icon--instagram"></span>
-          </a></li>
+          <li class="socials__item"><a href="#" class="socials__link socials__link--telegram" alt="Группа в Telegram"></a></li>
+          <li class="socials__item"><a href="#" class="socials__link socials__link--vk" alt="Группа в VK"></a></li>
+          <li class="socials__item"><a href="#" class="socials__link socials__link--facebook" alt="Группа в Facebook"></a></li>
+          <li class="socials__item"><a href="#" class="socials__link socials__link--instagram" alt="Группа в Instagram"></a></li>
         </ul>
         <address class="contacts">
           <div class="contacts__description">Бесплатный звонок по России</div>
