@@ -1,4 +1,4 @@
-.btn {
+.tag {
   display: inline-flex;
   border-radius: 17px;
   font-size: 13px;
@@ -7,14 +7,14 @@
   background-color: #e7e7e7;
 }
 
-.btn-blue {
+.tag--blue {
   background-color: #b9eae4;
 }
 
-.btn-checked:checked ~ .btn {
+.tag--checkbox:checked ~ .tag {
   background-color: #b9eae4;
 }
 
-.btn-checked {
+.tag--checkbox {
   display: none;
 }

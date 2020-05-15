@@ -90,6 +90,11 @@ img {
   background-color: #ffffff;
   padding-top: 94px;
 }
+
+.section-inner--reviews {
+  padding-top: 84px;
+}
+
 .section-inner--bg--gray {
   background-color: #f4f5f5;
 }
@@ -100,4 +105,16 @@ img {
   color: #202123;
   line-height: 1.1;
   margin-bottom: 87px;
+}
+
+.section-inner--reviews .section-inner__title {
+  margin-bottom: 47px;
+}
+
+input, textarea, button {
+  outline:none;
+}
+
+input:focus, textarea:focus, button:focus {
+  border: 1px solid #f5170e;
 }

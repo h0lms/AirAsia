@@ -1,14 +1,15 @@
 .attendance {
   display: flex;
+  flex: 1;
   justify-content: flex-start;
-  margin-bottom: 35px;
+  margin-bottom: 26px;
 }
 
 .attendance__ask {
   color: #1a1b1e;
   font-size: 18px;
-  white-space: nowrap;
-  margin-right: 12px;
+  width: 35%;
+  margin-right: 10px;
 }
 
 .attendance__list {
@@ -16,6 +17,10 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.attendance__item {
+  cursor: pointer;
 }
 
 .attendance__checkbox {

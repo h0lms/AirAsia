@@ -67,12 +67,16 @@
             <ul class="reviews">
               <li class="reviews__item review">
                 <div class="review__profile">
-                  <div class="review__avatar-wrap">
-                    <img src="./img/avatars/ivan.jpg" alt="Иван Петрович" class="review__avatar">
+                  <div class="review__photo">
+                    <div class="avatar">
+                      <img src="./img/avatars/ivan.jpg" alt="Иван Петрович" class="avatar__img">
+                    </div>
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Иван Петрович</a>
-                    <div class="btn btn-blue">Водопад Янг-бей</div>
+                    <ul class="reviews__tags">
+                      <li class="reviews__tag tag tag--blue">Водопад Янг-бей</li>
+                    </ul>
                   </div>
                 </div>
                 <h2 class="review__name">Крутой поход на водопады.</h2>
@@ -81,26 +85,16 @@
               </li>
               <li class="reviews__item review">
                 <div class="review__profile">
-                  <div class="review__avatar-wrap">
-                    <img src="./img/avatars/ekaterina.jpg" alt="Фото Екатерины Жмых" class="review__avatar">
-                  </div>
-                  <div class="review__feature">
-                    <a href="#" class="review__author">Екатерина Жмых</a>
-                    <div class="btn btn-blue">Тур на Остров обезьян</div>
-                  </div>
-                </div>
-                <h2 class="review__name">Очень понравился тур на остров обезьян.</h2>
-                <div class="review__text"><p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p></div>
-                <time class="review__date">Ноябрь 2019</time>
-              </li>
-              <li class="reviews__item review">
-                <div class="review__profile">
-                  <div class="review__avatar-wrap">
-                    <img src="./img/avatars/liza.jpg" alt="Фото Лизы Сидоровой" class="review__avatar">
+                  <div class="review__photo">
+                    <div class="avatar">
+                      <img src="./img/avatars/liza.jpg" alt="Фото Лизы Сидоровой" class="avatar__img">
+                    </div>
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Лиза Сидорова</a>
-                    <div class="btn btn-blue">Тур по Тайланду</div>
+                    <ul class="reviews__tags">
+                      <li class="reviews__tag tag tag--blue">Тур по Тайланду</li>
+                    </ul>
                   </div>
                 </div>
                 <h2 class="review__name">Интерестный тур по Таю.</h2>
@@ -109,12 +103,34 @@
               </li>
               <li class="reviews__item review">
                 <div class="review__profile">
-                  <div class="review__avatar-wrap">
-                    <img src="./img/avatars/anton.jpg" alt="Фото Антона Игоревича" class="review__avatar">
+                  <div class="review__photo">
+                    <div class="avatar">
+                      <img src="./img/avatars/ekaterina.jpg" alt="Фото Екатерины Жмых" class="avatar__img">
+                    </div>
+                  </div>
+                  <div class="review__feature">
+                    <a href="#" class="review__author">Екатерина Жмых</a>
+                    <ul class="reviews__tags">
+                      <li class="reviews__tag tag tag--blue">Тур на Остров обезьян</li>
+                    </ul>
+                  </div>
+                </div>
+                <h2 class="review__name">Очень понравился тур на остров обезьян.</h2>
+                <div class="review__text"><p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру.</p></div>
+                <time class="review__date">Ноябрь 2019</time>
+              </li>
+              <li class="reviews__item review">
+                <div class="review__profile">
+                  <div class="review__photo">
+                    <div class="avatar">
+                      <img src="./img/avatars/anton.jpg" alt="Фото Антона Игоревича" class="avatar__img">
+                    </div>
                   </div>
                   <div class="review__feature">
                     <a href="#" class="review__author">Антон Игоревич</a>
-                    <div class="btn btn-blue">Тур по Индонезии</div>
+                    <ul class="reviews__tags">
+                      <li class="reviews__tag tag tag--blue">Тур по Индонезии</li>
+                    </ul>
                   </div>
                 </div>
                 <h2 class="review__name">Для первого раза выбрал тур по Индонезии. И не пожалел!</h2>
@@ -142,58 +158,72 @@
 
         <secion class="banner">
           <div class="container banner__container">
-            <div class="banner__text">Подберем тур <br>по вашим пожеланиям</div>
+            <h2 class="banner__text">Подберем тур <br>по вашим пожеланиям</h2>
             <img src="./img/banner/banner-tour.png" alt="Ищем тур" class="banner__img">
           </div>
         </secion>
     
-        <section class="section-inner section-inner--bg--gray">
+        <section class="section-inner section-inner--reviews section-inner--bg--gray">
           <div class="container">
             <h2 class="section-inner__title">Оставьте отзыв</h2>
-            <div class="comment">
+            <form class="comment">
               <div class="comment__profile">
-                <input type="text" class="comment__name input" name="name" id="name" placeholder="Ваше имя">
-                <input type="text" class="comment__link input" name="link-vk" id="link-vk" placeholder="Ссылка на профиль VK">
+                <input type="text" class="comment__input" name="name" id="name" placeholder="Ваше имя">
+                <input type="text" class="comment__input" name="link-vk" id="link-vk" placeholder="Ссылка на профиль VK">
               </div>
-              <textarea name="comment-text" class="comment__text input" id="comment-text" cols="30" rows="10" placeholder="Напишите свой честный отзыв ;)"></textarea>
+              <textarea name="comment-text" class="comment__input comment__input--textarea" id="comment-text" cols="30" rows="9" placeholder="Напишите свой честный отзыв ;)"></textarea>
               <div class="attendance">
                 <div class="attendance__ask">Какими услугами компании пользуетесь?</div>
-                <div class="attendance__list">
-                  <label for="tour-id-1">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-1">
-                    <div class="attendance__checkbox btn">Остров обезьян</div>
-                  </label>
-                  <label for="tour-id-2">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-2">
-                    <div class="attendance__checkbox btn">Тур по Тайланду</div>
-                  </label>
-                  <label for="tour-id-3">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-3">
-                    <div class="attendance__checkbox btn">Водопад Янг-бей</div>
-                  </label>
-                  <label for="tour-id-4">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-4">
-                    <div class="attendance__checkbox btn">Тур по Индонезии</div>
-                  </label>
-                  <label for="tour-id-5">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-5">
-                    <div class="attendance__checkbox btn">Никакими</div>
-                  </label>
-                  <label for="tour-id-6">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-6">
-                    <div class="attendance__checkbox btn">Тур по Бали</div>
-                  </label>
-                  <label for="tour-id-7">
-                    <input type="checkbox" name="tour-id" class="btn-checked" id="tour-id-7">
-                    <div class="attendance__checkbox btn">Другое</div>
-                  </label>
-                </div>
+                <ul class="attendance__list">
+                  <li class="attendance__item">
+                    <label for="tour-id-1">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-1">
+                      <div class="attendance__checkbox tag">Остров обезьян</div>
+                    </label>
+                  </li>
+                  <li class="attendance__item">
+                    <label for="tour-id-2">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-2">
+                      <div class="attendance__checkbox tag">Тур по Тайланду</div>
+                    </label>
+                  </li>
+                  <li class="attendance__item">
+                    <label for="tour-id-3">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-3">
+                      <div class="attendance__checkbox tag">Водопад Янг-бей</div>
+                    </label>
+                  </li>
+                  <li class="attendance__item">
+                    <label for="tour-id-4">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-4">
+                      <div class="attendance__checkbox tag">Тур по Индонезии</div>
+                    </label>
+                  </li>
+                  <li class="attendance__item">
+                    <label for="tour-id-5">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-5">
+                      <div class="attendance__checkbox tag">Никакими</div>
+                    </label>
+                  </li>
+                  <li class="attendance__item">
+                    <label for="tour-id-6">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-6">
+                      <div class="attendance__checkbox tag">Тур по Бали</div>
+                    </label>
+                  </li>
+                  <li class="attendance__item">
+                    <label for="tour-id-7">
+                      <input type="checkbox" name="tour-id" class="tag--checkbox" id="tour-id-7">
+                      <div class="attendance__checkbox tag">Другое</div>
+                    </label>
+                  </li>
+                </ul>
               </div>
               <div class="comment__buttons">
-                <input type="reset" value="Очистить" class="comment__button button button--bg-black">
-                <input type="button" value="Отправить" class="comment__button button">
+                <button type="reset" class="comment__button button button--bg-black">Очистить</button>
+                <button type="submit" class="comment__button button">Отправить</button>
               </div>
-            </div>
+            </form>
           </div>
         </section>
 
