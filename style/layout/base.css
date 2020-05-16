@@ -32,10 +32,12 @@ body {
 }
 
 .wrapper--welcome {
-  background: url('../../img/bg-welcom.jpg') center calc(100% + 19px) no-repeat;
+  background: url('../../img/bg-welcom.jpg') center center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .wrapper__content {
