@@ -1,13 +1,14 @@
 .reviews {
-  margin-bottom: 69px;
+  margin-bottom: 45px;
   column-count: 2;
   column-gap: 29px;
+  margin-top: 24px;
 }
 
 .reviews__item {
   width: 555px;
-  margin-top: 24px;
   align-self: flex-start;
+  margin-bottom: 24px;
 }
 
 .review {
@@ -35,7 +36,7 @@
   font-weight: bold;
   line-height: 1;
   color: #1a1b1e;
-  margin: 20px 0 15px 0;
+  margin: 10px 0 15px 0;
   position: relative;
   border-bottom: 1px solid transparent;
   text-decoration: none;
@@ -50,13 +51,11 @@
 
 .review__author::after {
   content: "";
-  display: block;
+  display: inline-flex;
+  margin-left: 22px;
   width: 30px;
   height: 30px;
   background: url('../../img/icons/sprites.png') -122px -56px;
-  position: absolute;
-  right: -51px;
-  top: -3px;
 }
 
 .review__tour {

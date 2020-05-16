@@ -21,9 +21,6 @@
 
 .attendance__item {
   cursor: pointer;
-}
-
-.attendance__checkbox {
   margin-left: 10px;
   margin-bottom: 10px;
 }

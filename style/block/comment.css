@@ -29,6 +29,8 @@
 .comment__input--textarea {
   margin-bottom: 28px;
   width: 100%;
+  min-height: 232px;
+  margin-right: 0;
 }
 
 .comment__buttons {

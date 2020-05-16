@@ -1,11 +1,11 @@
-.login {
+.login__animation {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
   z-index: -10;
   animation: welkomeAnimation 2500ms 400ms linear forwards;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
