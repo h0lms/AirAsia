@@ -43,8 +43,7 @@
 
 .review__author:hover {
   color: #2e77a4;
-  text-decoration: none;
-  border-bottom: 1px solid #2e77a4;
+  text-decoration: underline;
   transition: .4s;
 }
 
